@@ -1,0 +1,51 @@
+/* Inline-Block */
+.inline-block-container {
+    font-size: 0;
+    color: yellow;
+    background-color: red;
+}
+.inline-block-container .box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    display: inline-block;
+    font-size: 50px;
+    color: red;
+}
+
+/* Floats */
+.floats-container {
+    background-color: red;
+}
+.floats-container .box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    font-size: 50px;
+    float: left;
+}
+.floats-container .stop-float {
+    clear: both;
+}
+
+/* Flexbox */
+.flexbox-container {
+    display: flex;
+}
+
+.flexbox-container .box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+/* Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px;
+}
+
+.grid-container .box {
+    background-color: blue;
+}
